@@ -2,6 +2,7 @@
 
 module.exports = {
   rules: {
+    'jsx-quotes': ['warn', 'prefer-single'],
     'react/jsx-closing-bracket-location': 'warn',
     'react/jsx-closing-tag-location': 'warn',
     'react/jsx-curly-spacing': ['warn', { when: 'never', children: true }],
